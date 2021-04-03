@@ -12,3 +12,19 @@ public class Main {
         }
     }
 }
+
+//for文を使用した複数行にわたる出力
+ 
+import java.util.*;
+
+
+public class Main {
+    public static void main(String[] args) {
+        String name = "paiza";
+        Scanner scan = new Scanner(System.in);
+        int n = scan.nextInt();
+        for(int i = 0;i<n; i++){
+            System.out.println(name);
+        }
+    }
+}
