@@ -29,7 +29,7 @@ public class Main {
     }
 }
 
-複数行入力値の出力
+//複数行入力値の出力
 
 import java.util.*;
 
