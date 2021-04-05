@@ -65,3 +65,42 @@ public class Main {
         System.out.println(max);
     }
 }
+
+//黒電話問題　未完成
+import java.util.*;
+
+
+public class Main {
+    public static void main(String[] args) {
+        // 自分の得意な言語で
+        // Let's チャレンジ！！
+        Scanner sc = new Scanner(System.in);
+        int sum = 0;
+        String s = sc.next();
+        String[] s2 = s.split("");
+        for (int i = 0; i < s2.length; i++) {
+          if(s2[i]=="0"){
+              sum += 24;
+          }else if(s2[i]=="1"){
+              sum += 6;
+          }else if(s2[i]=="2"){
+              sum += 8;
+          }else if(s2[i]=="3"){
+              sum += 10;
+          }else if(s2[i]=="4"){
+              sum += 12;
+          }else if(s2[i]=="5"){
+              sum += 14;
+          }else if(s2[i]=="6"){
+              sum += 16;
+          }else if(s2[i]=="7"){
+              sum += 18;
+          }else if(s2[i]=="8"){
+              sum += 20;
+          }else if(s2[i]=="9"){
+              sum += 22;
+          }
+        }
+        System.out.println(sum);
+    }
+}
