@@ -48,7 +48,6 @@ public class Main {
 //複数行で入力した整数の中から一番大きな値のみ出力
 import java.util.*;
 
-
 public class Main {
     public static void main(String[] args) {
         int max =0;
@@ -72,7 +71,6 @@ import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
-       
         Scanner sc = new Scanner(System.in);
         int sum = 0;
         String s = sc.next();
