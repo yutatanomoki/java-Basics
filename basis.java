@@ -136,3 +136,14 @@ public class Main {
 		System.out.println("ゲームを終了します");
 	}
 }
+
+//拡張for文を使用した記述
+
+public class Main {
+	public static void main(String[] args) {
+		int[] moneyList = {121902, 8302, 55100};
+		 for(int value: moneyList){
+		     System.out.println(value);
+		 }
+	}
+}
