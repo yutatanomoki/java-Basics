@@ -155,7 +155,6 @@ public class Main {
 		    double circleArea = calcCircleArea(5.0);
 		    System.out.println("円の面積"+circleArea+"平方cm");
 	}
-	
 	public static double calcTriangleArea(double bottom ,double height) {
 		    double area = (bottom*height)/2;
 		    return area;
