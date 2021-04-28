@@ -147,7 +147,7 @@ public class Main {
 		 }
 	}
 }
-//円の面積、三角形の面積算出
+///円の面積、三角形の面積算出
 public class Main {
 	public static void main(String[] args) {
             double triangleArea = calcTriangleArea(10.0,5.0);
